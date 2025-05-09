@@ -11,23 +11,17 @@ int main(){
      printf( "INSIRA OS DADOS DA CARTA_1.\n ");
 
      printf("Primeiro escolha entre os estados (A,B,C...ou H): \n");
-     scanf(" %c",&estado);     
-
+     scanf(" %c",&estado);    
      printf("Agora selecione o Codigo da carta/cidade de acordo com o estado anteriormene selecionado (ex:A01,A02,B03,B04,C05 ): \n");
      scanf(" %s",&codigo_carta); 
-
      printf("Agora informe o nome da cidade: \n");
      scanf("%s",nome_cidade);  
-
      printf("Agora informe a população da cidade selecionada: \n");
      scanf("%d",&populacao);   
-
      printf("Agora informe a quantidade de pontos turisticos da cidade selecionada: \n");
      scanf("%d",&numero_pontos_turisticos); 
-
      printf("Agora informe a área em (km²) da cidade selecionada:\n");
      scanf("%f",&area);
-
      printf("Agora informe o PIB da cidade selecionada:\n");
      scanf("%f",&PIB);
      
@@ -49,21 +43,16 @@ int main(){
 
      printf("Primeiro escolha entre os estados (A,B,C...ou H): \n");
      scanf(" %c",&estado); 
-
      printf("Agora selecione o Codigo da carta/cidade de acordo com o estado anteriormene selecionado (ex:A01,A02,B03,B04,C05 ): \n");
      scanf(" %s",&codigo_carta);
-
      printf("Agora selecione informe o nome da cidade: \n");
      scanf("%s",nome_cidade);  
      printf("Agora informe a população da cidade selecionada: \n");
      scanf("%d",&populacao);
-
      printf("Agora informe a quantidade de pontos turisticos da cidade selecionada: \n");
      scanf("%d",&numero_pontos_turisticos); 
-
      printf("Agora informe a área em (km²) da cidade selecionada:\n");
      scanf("%f",&area);
-
      printf("Agora informe o PIB da cidade selecionada:\n");
      scanf("%f",PIB); 
      
